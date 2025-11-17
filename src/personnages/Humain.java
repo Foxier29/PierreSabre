@@ -26,11 +26,11 @@ public class Humain {
 	public void acheter(String bien,int prix)
 	{
 		if (argent>prix)
-		{parler("j'ai "+argent+" sous en poche. Je vais pouvoir m'offrir "+bien+" à "+prix+" sous");
+		{parler("j'ai "+argent+" sous en poche. Je vais pouvoir m'offrir "+bien+" ï¿½ "+prix+" sous");
 		perdreArgent(prix);}
 		
 		else 
-		{parler("je n'ai plus que "+argent+" sous en poche. Je ne peux même pas m'offrir "+bien+" à "+prix+" sous");}
+		{parler("je n'ai plus que "+argent+" sous en poche. Je ne peux mï¿½me pas m'offrir "+bien+" ï¿½ "+prix+" sous");}
 	}
 	public void gagnerArgent(int gain)
 	{
